@@ -26,11 +26,11 @@ repositories {
 }
 
 dependencies {
-	implementation('com.seedfinding:mc_math:1.171.0') { transitive = false }
-	implementation('com.seedfinding:mc_seed:1.171.1') { transitive = false }
-	implementation('com.seedfinding:mc_core:1.192.1') { transitive = false }
-	implementation('com.seedfinding:mc_noise:1.171.1') { transitive = false }
-	implementation('com.seedfinding:mc_biome:1.171.1') { transitive = false }
+	implementation('com.seedfinding:mc_math:LATEST') { transitive = false }
+	implementation('com.seedfinding:mc_seed:LATEST') { transitive = false }
+	implementation('com.seedfinding:mc_core:LATEST') { transitive = false }
+	implementation('com.seedfinding:mc_noise:LATEST') { transitive = false }
+	implementation('com.seedfinding:mc_biome:LATEST') { transitive = false }
 
 	testImplementation("org.junit.jupiter:junit-jupiter-api:${jupiterVersion}")
 	testImplementation("org.junit.jupiter:junit-jupiter-params:${jupiterVersion}")
